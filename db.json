@@ -10,5 +10,9 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "projects": [
+    {"name": "QuickTrack"},
+    {"name": "Test"}
+  ]
 }
