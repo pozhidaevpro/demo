@@ -12,7 +12,7 @@
     "name": "typicode"
   },
   "projects": [
-    {"name": "QuickTrack"},
-    {"name": "Test"}
+    {"id":"QWERTY","name": "QuickTrack"},
+    {"id":"ASD","name": "Test"}
   ]
 }
