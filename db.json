@@ -1,18 +1,23 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "some comment", "taskId": 1 },
+    { "id": 2, "body": "some comment ....", "taskId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
+  "users": {
+    "id": 1,
+    "name": "Paul",
+    "email": "pin-feather@yandex.ru"
   },
   "projects": [
-    {"id":"QWERTY","name": "QuickTrack"},
-    {"id":"ASD","name": "Test"}
+    {"id":"1","uid": "1","name": "QuickTrack"},
+    {"id":"2","uid": "1","name": "Test"}
+  ],
+  "tasks": [
+    {"id":"1","uid": "1","pid": "1","name": "QuickTrack","body": "Body .... QT"},
+    {"id":"2","uid": "1","pid": "2","name": "Test","body": "Body .... Tst"}
+  ],
+  "todos": [
+    {"id":"1","uid": "1","taskId": "1","name": "To 1"},
+    {"id":"2","uid": "1","taskId": "1","name": "To 2"}
   ]
 }
