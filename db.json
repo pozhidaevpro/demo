@@ -9,8 +9,28 @@
     "email": "pin-feather@yandex.ru"
   },
   "projects": [
-    {"id":"1","uid": "1","name": "QuickTrack"},
-    {"id":"2","uid": "1","name": "Test"}
+    {
+      "id":"1",
+      "uid": "1",
+      "name": "QuickTrack",
+      "sets": {
+        "tabs": {
+          "tasks": true,
+          "diary": true
+        }
+      }
+    },
+    {
+      "id":"2",
+      "uid": "1",
+      "name": "Test",
+      "sets": {
+        "tabs": {
+          "tasks": true,
+          "diary": false
+        }
+      }
+    }
   ],
   "tasks": [
     {"id":"1","uid": "1","pid": "1","name": "QuickTrack","body": "Body .... QT"},
